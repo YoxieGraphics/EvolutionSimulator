@@ -140,7 +140,6 @@ def reproduction_checks(animal):
             if distance <= animal.sight and animal in reproductionReadyAnimals and other_animal in reproductionReadyAnimals:
                 # Target the other animal
                 animal.target_animal = other_animal
-                print(f"Animal with ID {animal.id} is targeting {other_animal.id}")
                 break
 
 
