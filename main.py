@@ -138,7 +138,7 @@ def reproduction_checks(animal):
             # Check if the other animal is within sight
             distance = np.linalg.norm(np.array(animal.position) - np.array(other_animal.position))
             if distance <= animal.sight and animal in reproductionReadyAnimals and other_animal in reproductionReadyAnimals:
-                # Target the other animal
+                # Target the other animal yeah
                 animal.target_animal = other_animal
                 break
 
